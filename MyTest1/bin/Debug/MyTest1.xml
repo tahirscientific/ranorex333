@@ -1,0 +1,314 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MyTest1</name>
+    </assembly>
+    <members>
+        <member name="T:MyTest1.CloseAUT">
+             <summary>
+            The CloseAUT recording.
+             </summary>
+        </member>
+        <member name="F:MyTest1.CloseAUT.repo">
+            <summary>
+            Holds an instance of the MyTest1Repository repository.
+            </summary>
+        </member>
+        <member name="M:MyTest1.CloseAUT.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:MyTest1.CloseAUT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:MyTest1.CloseAUT.CloseAutProcessIDVar">
+            <summary>
+            Gets or sets the value of variable CloseAutProcessIDVar.
+            </summary>
+        </member>
+        <member name="M:MyTest1.CloseAUT.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyTest1.CloseAUT.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyTest1.CloseAUT.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyTest1.CloseAUT.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:MyTest1.MyTest1Repository">
+            <summary>
+            The class representing the MyTest1Repository element repository.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1Repository.Instance">
+            <summary>
+            Gets the singleton class instance representing the MyTest1Repository element repository.
+            </summary>
+        </member>
+        <member name="M:MyTest1.MyTest1Repository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1Repository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1Repository.MotDePasse">
+            <summary>
+            The MotDePasse folder.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1Repository.SetupOCM9999991">
+            <summary>
+            The SetupOCM9999991 folder.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1Repository.SettingsOcm">
+            <summary>
+            The SettingsOcm folder.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1Repository.Confirmer">
+            <summary>
+            The Confirmer folder.
+            </summary>
+        </member>
+        <member name="T:MyTest1.MyTest1RepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:MyTest1.MyTest1RepositoryFolders.MotDePasseAppFolder">
+            <summary>
+            The MotDePasseAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:MyTest1.MyTest1RepositoryFolders.MotDePasseAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new MotDePasse  folder.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.MotDePasseAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.MotDePasseAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.MotDePasseAppFolder.Password">
+            <summary>
+            The Password item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.MotDePasseAppFolder.PasswordInfo">
+            <summary>
+            The Password item info.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.MotDePasseAppFolder.ButtonOK">
+            <summary>
+            The ButtonOK item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.MotDePasseAppFolder.ButtonOKInfo">
+            <summary>
+            The ButtonOK item info.
+            </summary>
+        </member>
+        <member name="T:MyTest1.MyTest1RepositoryFolders.SetupOCM9999991AppFolder">
+            <summary>
+            The SetupOCM9999991AppFolder folder.
+            </summary>
+        </member>
+        <member name="M:MyTest1.MyTest1RepositoryFolders.SetupOCM9999991AppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new SetupOCM9999991  folder.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.SetupOCM9999991AppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.SetupOCM9999991AppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:MyTest1.MyTest1RepositoryFolders.SettingsOcmAppFolder">
+            <summary>
+            The SettingsOcmAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:MyTest1.MyTest1RepositoryFolders.SettingsOcmAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new SettingsOcm  folder.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.SettingsOcmAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.SettingsOcmAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.SettingsOcmAppFolder.Quitter">
+            <summary>
+            The Quitter item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.SettingsOcmAppFolder.QuitterInfo">
+            <summary>
+            The Quitter item info.
+            </summary>
+        </member>
+        <member name="T:MyTest1.MyTest1RepositoryFolders.ConfirmerAppFolder">
+            <summary>
+            The ConfirmerAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:MyTest1.MyTest1RepositoryFolders.ConfirmerAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Confirmer  folder.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ConfirmerAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ConfirmerAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ConfirmerAppFolder.ButtonOui">
+            <summary>
+            The ButtonOui item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ConfirmerAppFolder.ButtonOuiInfo">
+            <summary>
+            The ButtonOui item info.
+            </summary>
+        </member>
+        <member name="T:MyTest1.Recording1">
+             <summary>
+            The Recording1 recording.
+             </summary>
+        </member>
+        <member name="F:MyTest1.Recording1.repo">
+            <summary>
+            Holds an instance of the MyTest1Repository repository.
+            </summary>
+        </member>
+        <member name="M:MyTest1.Recording1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:MyTest1.Recording1.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:MyTest1.Recording1.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyTest1.Recording1.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyTest1.Recording1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyTest1.Recording1.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:MyTest1.StartAUT">
+             <summary>
+            The StartAUT recording.
+             </summary>
+        </member>
+        <member name="F:MyTest1.StartAUT.repo">
+            <summary>
+            Holds an instance of the MyTest1Repository repository.
+            </summary>
+        </member>
+        <member name="M:MyTest1.StartAUT.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:MyTest1.StartAUT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:MyTest1.StartAUT.StartAutProcessIDVar">
+            <summary>
+            Gets or sets the value of variable StartAutProcessIDVar.
+            </summary>
+        </member>
+        <member name="M:MyTest1.StartAUT.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyTest1.StartAUT.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyTest1.StartAUT.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyTest1.StartAUT.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>
